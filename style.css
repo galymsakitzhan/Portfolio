@@ -1,0 +1,15 @@
+*{
+    background-color: black;
+}
+
+.hello{
+display: grid;
+grid-template-columns: repeat(9,1fr);
+}
+
+.container{
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin: 2px 5px;
+}
