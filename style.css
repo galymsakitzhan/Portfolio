@@ -4,7 +4,7 @@
 
 .hello{
 display: grid;
-grid-template-columns: repeat(9,1fr);
+grid-template-columns: repeat(9,2fr);
 }
 
 .container{
@@ -12,4 +12,17 @@ grid-template-columns: repeat(9,1fr);
     height: 150px;
     background-color: aliceblue;
     margin: 2px 5px;
+    cursor: pointer;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.white{
+    background-color: aliceblue;
 }
